@@ -71,6 +71,10 @@ $(function() {
 
         return $card;
     }
+
+    .card-placeholder {
+        background: pink;
+        }
     }
 
     var board = {
@@ -87,10 +91,6 @@ $(function() {
      connectWith: '.column-card-list',
      placeholder: 'card-placeholder'
    }).disableSelection();
-    }
-
-    .card-placeholder {
-    background: pink;
     }
 
     $('.create-column')

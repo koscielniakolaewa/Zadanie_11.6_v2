@@ -72,11 +72,6 @@ $(function() {
         return $card;
     }
 
-    .card-placeholder {
-        background: pink;
-        }
-    }
-
     var board = {
     name: 'Kanban Board',
     addColumn: function(column) {
@@ -117,4 +112,5 @@ $(function() {
     todoColumn.addCard(card1);
     doingColumn.addCard(card2);
 
+}
 })
